@@ -1,0 +1,8 @@
+1.华为云弹性虚拟机，开启VNC连接
+  1.1 ECS服务端开启vnc-server服务
+    systemctl enable vncserver@:1.service
+    systemctl start vncserver@:1.service 
+  1.2 客户端使用VNC Viewer连接服务端
+    连接信息为：119.8.34.118::5901
+
+参考：https://blog.csdn.net/hqy860822/article/details/83749962
